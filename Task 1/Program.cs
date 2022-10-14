@@ -6,11 +6,11 @@ int b = Convert.ToInt32(Console.ReadLine());
 
 if(b > a) 
 {
-    Console.WriteLine("Второе число больше");
+    Console.WriteLine("Второе число больше первого");
 }
 else if(a > b)
 {
-    Console.WriteLine("Первое число больше");
+    Console.WriteLine("Первое число больше второго");
 }
 else
 {
