@@ -1,11 +1,11 @@
-﻿Console.WriteLine("Введите целое число, чтобы проверить делится ли оно на 2");
+﻿Console.WriteLine("Введите целое число, чётное оно или нет");
 int a = Convert.ToInt32(Console.ReadLine());
 
 if(a % 2 == 0)
 {
-    Console.WriteLine("Число делится на 2 без остатка");
+    Console.WriteLine("Число чётное");
 }
 else
 {
-    Console.WriteLine("Число делится на 2 с остатком");
+    Console.WriteLine("Число нечётное");
 }
